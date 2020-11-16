@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis_boot /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\semihosting /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="1757f95f9e6">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="1757f995a77">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1757f95fde2">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1757f95fdec">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="1757f95f9fa">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="1757f98c493">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1757f95f5fe">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="1757f98cc63">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1757f95f5fe">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1757f95f608">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="1757f98c493">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1757f95f608">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis_boot /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis /IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1757f95f5fe">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1757f95f5fe">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1757f95f608">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1757f95f608">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

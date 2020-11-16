@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=STM32F103C8_Blink.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F103C8_Blink -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F103C8_Blink/arm-gcc-link.ld -g">
+      <target file="STM32F103C8_Blink.elf" lastModified="175c7cb79c6">
+         <source file="..\obj\semihosting.o" lastModified="1757f99710a"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1757f9971c8"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1757f997254"/>
+         <source file="..\obj\main.o" lastModified="175c7cb7707"/>
+         <source file="..\obj\printf.o" lastModified="1757f997420"/>
+         <source file="..\obj\sh_cmd.o" lastModified="1757f997448"/>
+      </target>
+   </processor>
+</history>

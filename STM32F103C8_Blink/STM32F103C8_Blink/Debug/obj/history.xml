@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis_boot -IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink -IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\semihosting -IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox\STM32F103C8_Blink\cmsis -IF:\Eigene_Dateien\Projekte\STM32\Projekte\Eclipse\CooCox">
+      <target file="startup_stm32f10x_md.o" lastModified="1757f997254">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1757f95f5fe"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1757f9971c8">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1757f95f608"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="1757f997448">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="1757f98c493"/>
+      </target>
+      <target file="printf.o" lastModified="1757f997420">
+         <source file="..\..\..\stdio\printf.c" lastModified="1757f9952a7"/>
+      </target>
+      <target file="main.o" lastModified="175c7cb7707">
+         <source file="..\..\..\main.c" lastModified="1758e0e583e"/>
+      </target>
+      <target file="semihosting.o" lastModified="1757f99710a">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="1757f98c493"/>
+      </target>
+   </processor>
+</history>
